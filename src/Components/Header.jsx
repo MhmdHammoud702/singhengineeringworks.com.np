@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="max-w-6xlw-full top-0 left-0 shadow-md relative z-50">
+    <header className=" w-full top-0 left-0 shadow-md relative z-50">
       {/* Top Bar */}
       <div className="bg-[#130346] text-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-15 py-2">
