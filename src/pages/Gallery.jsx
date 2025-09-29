@@ -6,7 +6,7 @@ const Gallery = () => {
         <div>
             <h1>Latest Photos</h1>
             <p>Some of our latest shots which will showcase our projects.</p>
-            <img src='' alt='image1'></img>
+            <img src='./src/assets/images/gallery-1.jpg' alt='gallery-1'></img>
             <img src='' alt='image1'></img>
             <img src='' alt='image1'></img>
             <img src='' alt='image1'></img>
