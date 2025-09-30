@@ -74,9 +74,9 @@ const Aboutus = () => {
                             Our Works
                         </h2>
                         <div className="flex items-center  mb-4">
-  <div className="w-9 h-[3px] bg-[#77c720] rounded"></div>
-  <div className="flex-1 h-[3px] bg-gray-300 rounded"></div>
-</div>
+                            <div className="w-9 h-[3px] bg-[#77c720] rounded"></div>
+                            <div className="flex-1 h-[3px] bg-gray-300 rounded"></div>
+                        </div>
                         <p className="text-[#333333] text-[18px] leading-relaxed">
                             We have been working with A-class contractors of Nepal.
                             <br />
@@ -95,9 +95,9 @@ const Aboutus = () => {
                             Our Clients
                         </h2>
                         <div className="flex items-center  mb-4">
-  <div className="w-9 h-[3px] bg-[#77c720] rounded"></div>
-  <div className="flex-1 h-[3px] bg-gray-300 rounded"></div>
-</div>
+                            <div className="w-9 h-[3px] bg-[#77c720] rounded"></div>
+                            <div className="flex-1 h-[3px] bg-gray-300 rounded"></div>
+                        </div>
                         <ul className="text-[#333333] text-[18px] space-y-2">
                             <li className="flex items-center space-x-4">
                                 <img
@@ -108,8 +108,8 @@ const Aboutus = () => {
                                 <span>Denish Project: Biratnagar Dairy Border Plant for Globe Met.</span>
                             </li><br />
 
-                            <li  className="flex items-center space-x-4"><img src="../public/assets/images/finland.jpg" alt="finland flag" className="h-20 w-25" /><span>Finnish Project: Heavy Diesel Plant for Wart Sila Oy.</span></li><br/>
-                            <li  className="flex items-center space-x-4"    ><img src="../public/assets/images/japan.png" alt="japan flag" className="h-20 w-25" /><span>Japanese Project: Gaighat Cement Factory.</span></li>
+                            <li className="flex items-center space-x-4"><img src="../public/assets/images/finland.jpg" alt="finland flag" className="h-20 w-25" /><span>Finnish Project: Heavy Diesel Plant for Wart Sila Oy.</span></li><br />
+                            <li className="flex items-center space-x-4"    ><img src="../public/assets/images/japan.png" alt="japan flag" className="h-20 w-25" /><span>Japanese Project: Gaighat Cement Factory.</span></li>
                         </ul>
                     </div>
                 </div>

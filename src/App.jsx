@@ -5,7 +5,7 @@ import Footer from './Components/Footer.jsx'
 import BasicBreadcrumbs from './Components/BasicBreadcrumbs.jsx'
 import Header from './Components/header.jsx';
 
-function App() {const organizationName = "Conflict Victim and Disabled Society | Nepal";
+function App() {const organizationName = "Singh Engineering Works";
   const matches = useMatches();
   const currentMatch = matches[matches.length - 1];
   const pageTitle = currentMatch?.handle?.title || "Page";
