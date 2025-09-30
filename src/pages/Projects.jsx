@@ -101,8 +101,8 @@ const Projects = () => {
                     <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden" key={index}>
                         <img src={project.image} alt={project.title} className="w-full h-80 object-cover rounded-b-lg" />
                         <div className="p-6">
-                            <h3 className="text-2xl font-bold text-gray-800">{project.title}</h3>
-                            <p className="text-gray-600 mt-4">{project.description}</p>
+                            <h3 className="text-[24px] font-bold text-gray-800">{project.title}</h3>
+                            <p className="text-gray-600 mt-4 text-[18px]">{project.description}</p>
                         </div>
                     </div>
                 ))}

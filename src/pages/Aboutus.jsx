@@ -101,15 +101,15 @@ const Aboutus = () => {
                         <ul className="text-[#333333] text-[18px] space-y-2">
                             <li className="flex items-center space-x-4">
                                 <img
-                                    src="../public/assets/images/denmark.png"
+                                    src="/assets/images/denmark.png"
                                     alt="Denmark flag"
                                     className="h-20 w-25 "
                                 />
                                 <span>Denish Project: Biratnagar Dairy Border Plant for Globe Met.</span>
                             </li><br />
 
-                            <li className="flex items-center space-x-4"><img src="../public/assets/images/finland.jpg" alt="finland flag" className="h-20 w-25" /><span>Finnish Project: Heavy Diesel Plant for Wart Sila Oy.</span></li><br />
-                            <li className="flex items-center space-x-4"    ><img src="../public/assets/images/japan.png" alt="japan flag" className="h-20 w-25" /><span>Japanese Project: Gaighat Cement Factory.</span></li>
+                            <li className="flex items-center space-x-4"><img src="/assets/images/finland.jpg" alt="finland flag" className="h-20 w-25" /><span>Finnish Project: Heavy Diesel Plant for Wart Sila Oy.</span></li><br />
+                            <li className="flex items-center space-x-4"    ><img src="/assets/images/japan.png" alt="japan flag" className="h-20 w-25" /><span>Japanese Project: Gaighat Cement Factory.</span></li>
                         </ul>
                     </div>
                 </div>
