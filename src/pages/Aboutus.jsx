@@ -8,7 +8,7 @@ const Aboutus = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 {/* LEFT CONTENT (2/3 width) */}
                 <div className="lg:col-span-2 space-y-10">
-                    {/* About Image + Text */}
+                    {/* About US Image + Text */}
                     <div className="bg-gray-50">
                         <img
                             src="../public/assets/images/about us/singh-engg-works-about-photo.jpg"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     const projects = [
@@ -107,8 +108,8 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-            <button className="mt-15 px-7 py-3 bg-[#0c4a19] cursor-pointer text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-500">
-                More can be seen on Gallery Page
+            <button className="mt-15 px-7 py-3 bg-[#0c4a19] cursor-pointer text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-500"><Link to="/gallery">More can be seen on Gallery Page</Link>
+                
             </button>
         </div>
     );
