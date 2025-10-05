@@ -3,70 +3,48 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#130346] text-white p-6 font-sans">
-      <div className="flex flex-wrap justify-around max-w-6xl mx-auto">
-
-        <div>
-          <h3 className="text-lg font-bold mb-2">About Singh Engineering Works</h3>
-          <p>Singh Engineering Works was established in 1990 AD. It's a renowned name in Mechanical, Fabrication, Erection in Nepal. The company is run by Mechanical Engineer.<br />
-
-            Read More</p>
+    <footer className="bg-[#130346] text-white">
+      <div className="grid md:grid-cols-4 max-w-6xl mx-auto py-8">
+        {/* About Section */}
+        <div className="col-span-1 md:col-span-2">
+          <h3 className="text-[24px] font-bold mb-6">About Singh Engineering Works</h3>
+          <p className="text-[18px] mb-10">
+            Singh Engineering Works was established in 1990 AD. It's a renowned name in Mechanical, Fabrication, Erection in Nepal. The company is run by a Mechanical Engineer.
+          </p>
+          <Link to="/about" className="text-[18px]">Read More</Link>                 
+          <div className="h-[1px] bg-gray-300 mt-5"></div>
         </div>
 
-        <div>
-          <h3 className="text-lg font-bold mb-2">Quick Links</h3>
+        {/* Quick Links Section */}
+        <div className="col-span-1 md:col-span-1">
+          <h3 className="text-[24px] font-bold mb-6">Quick Links</h3>
           <ul className="list-none p-0">
-            <li>
-              <Link to="/services" >
-                Our Services
-              </Link>
-              <li>
-                <Link
-                  to="/about"
-
-                >
-                  About-Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/testimonals"
-
-                >
-                  Testimonals
-                </Link>
-              </li>
-              <li>
-                <Link to="/gallery" >
-                  Photo gallery
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact">
-                  Contact Us
-                </Link>
-              </li>
-
-            </li>
-
-
+            <li><Link to="/services" className="text-[18px] hover:text-[#77c720]">Our Services</Link></li>
+            <li><Link to="/about" className="text-[18px] hover:text-[#77c720]">About Us</Link></li>
+            <li><Link to="/testimonals" className="text-[18px] hover:text-[#77c720]">Testimonials</Link></li>
+            <li><Link to="/gallery" className="text-[18px] hover:text-[#77c720]">Photo Gallery</Link></li>
+            <li><Link to="/contact" className="text-[18px] hover:text-[#77c720]">Contact Us</Link></li>
           </ul>
         </div>
 
-        <div>
-          <h3 className="text-lg font-bold mb-2">Contact Us</h3>
-          <ul>
-            <li>
-              Munalpath, Dharan Road, Biratnagar-6, Nepal</li>
-            <li>
-              9816340067</li>
-            <li>arvindpalsingh269@gmail.com</li>
+        {/* Contact Us Section */}
+        <div className="col-span-1 md:col-span-1">
+          <h3 className="text-[24px] font-bold mb-6">Contact Us</h3>
+          <ul className="list-none p-0 text-[18px]">
+            <li>Munalpath, Dharan Road, Biratnagar-6, Nepal</li>
+            <div className="h-[1px] bg-gray-300 mt-5 mb-6"></div>
+            <li>9816340067</li>
+            <div className="h-[1px] bg-gray-300 mt-5 mb-6"></div>
+            <li><a href="mailto:arvindpalsingh269@gmail.com" className="text-[#77c720] hover:text-[#426f12] text-[15px]">arvindpalsingh269@gmail.com</a></li>
           </ul>
         </div>
       </div>
 
-      <div className="text-center mt-4">
-        <p>Copyright © 2025. All Rights Reserved; Singh Engineering Works | Technology partner : PRACAS</p>
+      {/* Copyright Section */}
+      <div className="text-center bg-white p-5">
+        <p className="text-[18px] text-black">
+          Copyright © 2025. All Rights Reserved; Singh Engineering Works | Technology Partner: PRACAS
+        </p>
       </div>
     </footer>
   );

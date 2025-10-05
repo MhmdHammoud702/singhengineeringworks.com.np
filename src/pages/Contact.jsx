@@ -12,20 +12,20 @@ const Contact = () => {
         </div>
 
         <ul className='space-y-3'>
-          <li className="flex items-center text-lg">
-            <img src="/assets/images/home-button.png" alt="home" className="w-6 h-6 mr-2" />
+          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg">
+            <img src="/assets/images/contact/home-button.png" alt="home" className="w-6 h-6 mr-2" />
             Munalpath, Dharan Road, Biratnagar-6, Nepal
           </li>
-          <li className="flex items-center text-lg">
-            <img src="/assets/images/telephone-symbol-button.png" alt="phone" className="w-6 h-6 mr-2" />
+          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg">
+            <img src="/assets/images/contact/telephone-symbol-button.png" alt="phone" className="w-6 h-6 mr-2" />
             +977 9816340067
           </li>
-          <li className="flex items-center text-lg">
-            <img src="/assets/images/mail.png" alt="email" className="w-6 h-6 mr-2" />
+          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg">
+            <img src="/assets/images/contact/mail.png" alt="email" className="w-6 h-6 mr-2" />
             arvindpalsingh269@gmail.com
           </li>
-          <li className="flex items-center text-lg">
-            <img src="/assets/images/web.png" alt="website" className="w-6 h-6 mr-2" />
+          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg">
+            <img src="/assets/images/contact/web.png" alt="website" className="w-6 h-6 mr-2" />
             www.singhengineeringworks.com.np
           </li>
         </ul>

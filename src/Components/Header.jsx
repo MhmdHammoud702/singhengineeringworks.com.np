@@ -8,17 +8,18 @@ const Header = () => {
       <div className="bg-[#130346] text-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-15 py-2">
           <div className="flex items-center gap-6 text-white text-bold list-none font-bold">
-            <li> +977 9816314006</li>
-            <li><a
+            <li className="flex items-center  hover:text-[#77c720] cursor-pointer "><img src="/assets/images/contact/telephone-symbol-button.png" alt="phone" className="w-3 h-3 mr-2" /> +977 9816314006</li>
+            <li className="flex items-center ">
+              <img src="/assets/images/contact/send.png" alt="phone" className="w-4 h-4 mr-2" /><a
               href="mailto:arvindpalsingh269@gmail.com"
-              className="hover:text-[#159EEC] transition text-white"
+              className="hover:text-[#77c720] transition text-white"
             >
               arvindpalsingh269@gmail.com
             </a></li>
           </div>
           <div className="flex items-center gap-6 text-white text-bold list-none">
-            <li>BOOK OUR SERVICES</li>
-            <li>EMAIL</li>
+            <li className="bg-[#77c720] cursor-pointer hover:bg-[#FFBB44]" style={{padding:'12px 20px'}}>BOOK OUR SERVICES</li>
+            <li className="bg-[#FFBB44] cursor-pointer hover:bg-[#77c720]" style={{padding:'12px 20px'}}>EMAIL</li>
           </div>
           
         </div>
@@ -37,7 +38,7 @@ const Header = () => {
           </Link>
 
           {/* Navbar Links */}
-          <ul className="flex gap-3 list-none p-0 font-medium">
+          <ul className="flex gap-10 list-none p-0 font-bold text-[14px] text-[#12035E]">
             {[
               { name: "HOME", path: "/" },
               { name: "ABOUT US", path: "/about" },
@@ -49,7 +50,7 @@ const Header = () => {
               <li key={i}>
                 <Link
                   to={item.path}
-                  className="hover:text-blue-600 transition"
+                  className="hover:text-[#77c720] transition"
                 >
                   {item.name}
                 </Link>

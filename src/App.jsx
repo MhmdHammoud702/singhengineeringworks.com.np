@@ -3,7 +3,7 @@ import { Outlet, useMatches } from 'react-router-dom'
 
 import Footer from './Components/Footer.jsx'
 import BasicBreadcrumbs from './Components/BasicBreadcrumbs.jsx'
-import Header from './Components/header.jsx';
+import Header from './Components/Header.jsx';
 
 function App() {const organizationName = "Singh Engineering Works";
   const matches = useMatches();
