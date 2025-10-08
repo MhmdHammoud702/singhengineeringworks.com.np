@@ -38,7 +38,7 @@ const Header = () => {
           </Link>
 
           {/* Navbar Links */}
-          <ul className="flex gap-10 list-none p-0 font-bold text-[14px] text-[#12035E]">
+          <ul className="flex gap-11 list-none p-0 font-[800] text-[15px] text-[#12035E]">
             {[
               { name: "HOME", path: "/" },
               { name: "ABOUT US", path: "/about" },

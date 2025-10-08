@@ -46,7 +46,6 @@ const Gallery = () => {
                 <img src='/assets/images/gallery/37.jpeg' alt='gallery-19' className="w-full h-auto "/>
                 <img src='/assets/images/gallery/38.jpeg' alt='gallery-19' className="w-full h-auto "/>
                 <img src='/assets/images/gallery/39.jpeg' alt='gallery-19' className="w-full h-auto "/>
-                {/* Add more images here */}
             </div>
         </div>
         
@@ -98,9 +97,6 @@ const Gallery = () => {
                 <img src='/assets/images/gallery/43.jpg' alt='image9' className="w-full h-auto"/>              
                 <img src='/assets/images/gallery/81.jpeg' alt='image9' className="w-full h-auto"/>
                 
-               
-                
-                {/* Add more images as needed */}
             </div>
         </div>
     </div>
