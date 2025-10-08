@@ -19,7 +19,7 @@ const testimonals = [
 
 const Testimonals = () => {
         return (
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6 min-h-screen">
             <h1 className="text-[48px] text-[#1A1A1A] font-[800] text-center mb-6">PRECIOUS WORDS</h1>
             <p className="text-[20px] text-[#888888] text-center mb-25">PRECIOUS WORDS FROM OUR PRECIOUS CLIENTS</p>
             <div className="grid lg:grid-cols-3 gap-13">

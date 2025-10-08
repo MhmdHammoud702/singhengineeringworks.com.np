@@ -11,6 +11,7 @@ import Contact from './Pages/Contact.jsx'
 import Projects from './Pages/Projects.jsx'
 import Services from './Pages/Services.jsx'
 import Testimonals from './Pages/Testimonals.jsx'
+import BookingForm from './Pages/BookingForm.jsx'
 
 
 
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
     { path: 'contact', element: <Contact/>, handle: { title: "Contact Us" } },
     { path: 'services', element: <Services/>, handle: { title: "Services" } },
     { path: 'gallery', element: <Gallery/>, handle: { title: "Gallery" } },
-    { path: 'testimonals', element: <Testimonals/>, handle: {title:"Testimonals"}}
+    { path: 'testimonals', element: <Testimonals/>, handle: {title:"Testimonals"}},
+    { path: 'booking', element: <BookingForm/>, handle: {title:"Booking Form"}}
   ]}
 ]);
 

@@ -28,7 +28,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full h-[500px] lg:h-[600px] overflow-hidden min-h-[700px]">
+    <div className="relative w-full h-[500px] lg:h-[600px] overflow-hidden min-h-[600px]">
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -64,7 +64,7 @@ const BookService = () => (
     <div><h2 className='text-[32px] font-bold px-48'>We are helping companies since 1990</h2>
       <p className='text-[18px] font-semibold px-48'>Become a part of Singh Engineering Works</p></div>
 
-    <button className='px-7 bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-5 border-white' style={{ marginTop: '15px' }}>Book Our Service</button>
+    <button className='px-7 bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-5 border-white cursor-pointer' style={{ marginTop: '15px' }}><Link to={'booking'}>Book Our Service</Link></button>
   </div>
 )
 const OurServices = () => {
