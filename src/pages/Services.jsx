@@ -100,9 +100,7 @@ const Services = () => {
             <p className="text-[18px] text-[#888888] text-center mb-10">OUR ESTIMATED SERVICES</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {services.map((service, index) => (
-                    <div
-                        key={index}
-                    >
+                    <div key={index}>
                         <img
                             src={service.image}
                             alt={service.title}

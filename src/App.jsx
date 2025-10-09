@@ -16,13 +16,10 @@ function App() {const organizationName = "Singh Engineering Works";
 
   return (
     <div>
-    
-     
       <Header/>
       <BasicBreadcrumbs />
       <Outlet context={{ organizationName, pathname: location.pathname }} />
       <Footer/>
-    
     </div>
   );
 }

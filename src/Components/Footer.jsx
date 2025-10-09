@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="text-[18px] mb-10">
             Singh Engineering Works was established in 1990 AD. It's a renowned name in Mechanical, Fabrication, Erection in Nepal. The company is run by a Mechanical Engineer.
           </p>
-          <Link to="/about" className="text-[18px]">Read More</Link>                 
+          <Link to="/about" className="text-[18px]">Read More</Link>
           <div className="h-[1px] bg-gray-300 mt-5"></div>
         </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
           <ul className="list-none p-0 text-[18px]">
             <li className="flex items-center gap-x-6"><img src="/assets/images/footer/send.png" alt="home" className="w-4 h-4 mr-2" />Munalpath, Dharan Road, Biratnagar-6, Nepal</li>
             <div className="h-[1px] bg-gray-300 mt-5 mb-6"></div>
-            <li className="flex items-center gap-x-6"><img src="/assets/images/footer/phone-call.png" alt="home" className="w-4 h-4 mr-2" />9816340067</li>
+            <li className="flex items-center gap-x-6"><img src="/assets/images/footer/phone-call.png" alt="home" className="w-4 h-4 mr-2" /><a href="tel:+9779816340067">9816340067</a></li>
             <div className="h-[1px] bg-gray-300 mt-5 mb-6"></div>
             <li className="flex items-center gap-x-6"><img src="/assets/images/footer/mail.png" alt="home" className="w-5 h-5 mr-2" /><a href="mailto:arvindpalsingh269@gmail.com" className="text-[#77c720] hover:text-[#426f12] text-[15px]">arvindpalsingh269@gmail.com</a></li>
           </ul>
@@ -43,8 +43,16 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="text-center bg-white p-5">
         <p className="text-[18px] text-black">
-          Copyright © 2025. All Rights Reserved; Singh Engineering Works | Technology Partner: PRACAS
+          Copyright © 2025. All Rights Reserved; Singh Engineering Works | Technology Partner:{" "}
+          <a
+            href="https://pracas.net/"
+            target="_blank"
+            className="text-[#77c720] hover:text-[#426f12]"
+          >
+            PRACAS
+          </a>
         </p>
+
       </div>
     </footer>
   );

@@ -59,35 +59,35 @@ return groups;
 
 return (
 <div className='max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md mt-10 mb-8'>
-    <h2 className="text-[38px] text-[#1A1A1A] font-[800] text-center mb-6">Engineering Servivces Booking Form</h2>
+    <h2 className="text-[38px] text-[#1A1A1A] font-[800] text-center mb-6">Engineering Services Booking Form</h2>
     <form onSubmit={handleSubmit} className='space-y-4'>
     <div>
-      <label className='font-medium block'>Full Name:</label><br />
+      <label className='font-medium block'>Full Name *</label><br />
       <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Company Name (optional):</label><br />
+      <label className='font-medium block'>Company Name </label><br />
       <input type="text" name="companyName" value={formData.companyName} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Email Address:</label><br />
+      <label className='font-medium block'>Email Address *</label><br />
       <input type="email" name="email" value={formData.email} onChange={handleChange} required className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Phone Number:</label><br />
+      <label className='font-medium block'>Phone Number *</label><br />
       <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Project Location:</label><br />
+      <label className='font-medium block'>Project Location *</label><br />
       <input type="text" name="location" value={formData.location} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Preferred Contact Method:</label><br />
+      <label className='font-medium block'>Preferred Contact Method *</label><br />
       <select name="contactMethod" value={formData.contactMethod} onChange={handleChange} required className='w-full border border-gray-300 rounded-md p-2'>
         <option value="">-- Select --</option>
         <option value="Email">Email</option>
@@ -97,7 +97,7 @@ return (
     </div>
 
     <div>
-      <label className='font-medium block'>Service Type:</label><br />
+      <label className='font-medium block'>Service Type *</label><br />
       <select name="serviceType" value={formData.serviceType} onChange={handleChange} required className='w-full border border-gray-300 rounded-md p-2'>
         <option value="">-- Select a Service --</option>
         {Object.entries(groupedServices).map(([group, services]) => (
@@ -111,22 +111,22 @@ return (
     </div>
 
     <div>
-      <label className='font-medium block'>Project Description:</label><br />
+      <label className='font-medium block'>Project Description *</label><br />
       <textarea name="projectDescription" value={formData.projectDescription} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'></textarea>
     </div>
 
     <div>
-      <label className='font-medium block'>Preferred Start Date:</label><br />
+      <label className='font-medium block'>Preferred Start Date *</label><br />
       <input type="date" name="startDate" value={formData.startDate} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Upload Related Documents (if any):</label><br />
+      <label className='font-medium block'>Upload Related Documents (if any)</label><br />
       <input type="file" name="file" onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>
-      <label className='font-medium block'>Additional Comments:</label><br />
+      <label className='font-medium block'>Additional Comments</label><br />
       <textarea name="comments" value={formData.comments} onChange={handleChange} className='w-full border border-gray-300 rounded-md p-2'></textarea>
     </div>
 
