@@ -13,8 +13,6 @@ import Services from './Pages/Services.jsx'
 import Testimonals from './Pages/Testimonals.jsx'
 import BookingForm from './Pages/BookingForm.jsx'
 
-
-
 const router = createBrowserRouter([
   { path: '/', element: <App />, children: [
     { index: true, element: <Home/>, handle: { title: "Home" } },

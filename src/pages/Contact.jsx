@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="w-9 h-[3px] bg-[#77c720] rounded"></div>
             <div className="flex-1 h-[3px] bg-gray-300 rounded"></div>
           </div>
-          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg">
+          <li className="flex items-center hover:text-[#77c720] cursor-pointer text-lg" onClick={()=>window.scrollTo(0,0)}>
             <img src="/assets/images/contact/web.png" alt="website" className="w-6 h-6 mr-2" /><Link to={'/'}>www.singhengineeringworks.com.np</Link>
 
           </li>

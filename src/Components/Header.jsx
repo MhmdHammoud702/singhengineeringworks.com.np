@@ -18,7 +18,7 @@ const Header = () => {
               </a></li>
           </div>
           <div className="flex items-center gap-6 text-white text-bold list-none">
-            <li className="bg-[#77c720] cursor-pointer hover:bg-[#FFBB44]" style={{ padding: '12px 20px' }}><Link to={'/booking'}>BOOK OUR SERVICES</Link></li>
+            <li className="bg-[#77c720] cursor-pointer hover:bg-[#FFBB44]" style={{ padding: '12px 20px' }} onClick={()=>window.scrollTo(0,0)}><Link to={'/booking'}>BOOK OUR SERVICES</Link></li>
             <li className="bg-[#FFBB44] cursor-pointer hover:bg-[#77c720]" style={{ padding: '12px 20px' }}><a href="mailto:arvindpalsingh269@gmail.com">EMAIL</a></li>
           </div>
 

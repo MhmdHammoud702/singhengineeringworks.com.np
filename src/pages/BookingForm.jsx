@@ -78,7 +78,7 @@ return (
 
     <div>
       <label className='font-medium block'>Phone Number *</label><br />
-      <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required className='w-full border border-gray-300 rounded-md p-2'/>
+      <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required inputMode='numeric' pattern='[0-9]*' className='w-full border border-gray-300 rounded-md p-2'/>
     </div>
 
     <div>

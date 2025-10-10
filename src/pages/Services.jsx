@@ -95,7 +95,7 @@ const services = [
 
 const Services = () => {
     return (
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-6 mb-15">
             <h1 className="text-[48px] text-[#1A1A1A] font-[800] text-center mb-6">SERVICES</h1>
             <p className="text-[18px] text-[#888888] text-center mb-10">OUR ESTIMATED SERVICES</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

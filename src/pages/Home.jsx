@@ -64,7 +64,7 @@ const BookService = () => (
     <div><h2 className='text-[32px] font-bold px-48'>We are helping companies since 1990</h2>
       <p className='text-[18px] font-semibold px-48'>Become a part of Singh Engineering Works</p></div>
 
-    <button className='px-7 bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-5 border-white cursor-pointer' style={{ marginTop: '15px' }}><Link to={'booking'}>Book Our Service</Link></button>
+    <button className='px-7 bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-5 border-white cursor-pointer' style={{ marginTop: '15px' }} onClick={()=>window.scrollTo(0,0)}><Link to={'booking'}>Book Our Service</Link></button>
   </div>
 )
 const OurServices = () => {
@@ -115,7 +115,7 @@ const OngoingSection = () => (
       <p className='font-bold text-[32px] text-[#77C720]'>Our Ongoing Works</p>
       <p className='font-bold text-[48px]'>Building Deep Boring Machine</p>
       <p className='text-[18px] text-center mt-9 px-75'>Singh Engineering Works has been providing its regular service to Government of Nepal, Irrigation Project. It has been making Deep Boring Machine of 125 Meters. It has been providing its valued services to all over Nepal and has a very good name in these sectors.</p>
-      <button className='px-7 bg-[#0c4a19] text-white cursor-pointer font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-2 border-yellow-400 py-3 mt-10'><Link to="contact">Contact Now</Link></button>
+      <button className='px-7 bg-[#0c4a19] text-white cursor-pointer font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-2 border-yellow-400 py-3 mt-10'><Link to="contact" onClick={()=>window.scrollTo(0,0)}>Contact Now</Link></button>
     </div>
   </div>
 )
@@ -161,7 +161,7 @@ const TopProjects = () => {
           </div>
         ))}
       </div>
-      <button className="mt-10 px-7 py-3 cursor-pointer bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-400"><Link to="projects">View All Projects</Link>
+      <button className="mt-10 px-7 py-3 cursor-pointer bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-400" onClick={()=>window.scrollTo(0,0)}><Link to="projects">View All Projects</Link>
       </button>
     </div>
   );
@@ -183,7 +183,7 @@ const ProductsAndProjects = () => {
         <img src="/assets/images/home/gallery_8.jpg" alt="Image 3" className="w-full h-auto " />
       </div>
 
-      <button className="mt-10 mb-10 px-7 py-3 bg-[#0c4a19] cursor-pointer text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-400"><Link to="/gallery">View Our Gallery</Link>
+      <button className="mt-10 mb-10 px-7 py-3 bg-[#0c4a19] cursor-pointer text-white font-bold text-[22px] hover:bg-[#77C720] transition-colors mx-auto block border-2 border-yellow-400" onClick={()=>window.scrollTo(0,0)}><Link to="/gallery">View Our Gallery</Link>
       </button>
     </div>
   );

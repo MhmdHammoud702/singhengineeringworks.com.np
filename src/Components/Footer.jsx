@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="text-[18px] mb-10">
             Singh Engineering Works was established in 1990 AD. It's a renowned name in Mechanical, Fabrication, Erection in Nepal. The company is run by a Mechanical Engineer.
           </p>
-          <Link to="/about" className="text-[18px]">Read More</Link>
+          <Link to="/about" className="text-[18px]" onClick={()=>window.scrollTo(0,0)}>Read More</Link>
           <div className="h-[1px] bg-gray-300 mt-5"></div>
         </div>
 
@@ -19,11 +19,11 @@ const Footer = () => {
         <div className="col-span-1 md:col-span-1 px-5">
           <h3 className="text-[24px] font-bold mb-6">Quick Links</h3>
           <ul className="list-none p-0 space-y-2">
-            <li className="flex items-center"><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/services" className="text-[18px] hover:text-[#77c720]">Our Services</Link></li>
-            <li className="flex items-center"><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/about" className="text-[18px] hover:text-[#77c720]">About Us</Link></li>
-            <li className="flex items-center"><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/testimonals" className="text-[18px] hover:text-[#77c720]">Testimonials</Link></li>
-            <li className="flex items-center"><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/gallery" className="text-[18px] hover:text-[#77c720]">Photo Gallery</Link></li>
-            <li className="flex items-center"><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/contact" className="text-[18px] hover:text-[#77c720]">Contact Us</Link></li>
+            <li className="flex items-center" onClick={()=>window.scrollTo(0,0)}><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/services" className="text-[18px] hover:text-[#77c720]">Our Services</Link></li>
+            <li className="flex items-center" onClick={()=>window.scrollTo(0,0)}><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/about" className="text-[18px] hover:text-[#77c720]">About Us</Link></li>
+            <li className="flex items-center" onClick={()=>window.scrollTo(0,0)}><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/testimonals" className="text-[18px] hover:text-[#77c720]">Testimonials</Link></li>
+            <li className="flex items-center" onClick={()=>window.scrollTo(0,0)}><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/gallery" className="text-[18px] hover:text-[#77c720]">Photo Gallery</Link></li>
+            <li className="flex items-center" onClick={()=>window.scrollTo(0,0)}><img src="/assets/images/footer/right.png" alt="home" className="w-8 h-4 mr-2" /><Link to="/contact" className="text-[18px] hover:text-[#77c720]">Contact Us</Link></li>
           </ul>
         </div>
 
