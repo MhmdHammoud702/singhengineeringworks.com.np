@@ -45,26 +45,29 @@ const HeroSection = () => {
 
       <button
         onClick={prevSlide}
-        className="absolute left-5 top-1/2 cursor-pointer -translate-y-1/2 bg-black/40 text-white text-[55px] px-4 py-6 "
+        className="absolute  left-0 top-1/2 cursor-pointer -translate-y-1/2 bg-black/40 text-white text-[80px] px-6 py-4 "
       >
         ‹
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-5 top-1/2 cursor-pointer -translate-y-1/2 bg-black/40 text-white text-[55px] px-4 py-6"
+        className="absolute right-0 top-1/2 cursor-pointer -translate-y-1/2 bg-black/40 text-white text-[80px] px-6 py-4"
       >
-        ›
+          ›
       </button>
     </div>
   );
 };
 
 const BookService = () => (
-  <div className='bg-[#130346] text-white py-10 flex '>
-    <div><h2 className='text-[32px] font-bold px-48'>We are helping companies since 1990</h2>
-      <p className='text-[18px] font-semibold px-48'>Become a part of Singh Engineering Works</p></div>
-
-    <button className='px-7 bg-[#0c4a19] text-white font-bold text-[22px] hover:bg-white hover:text-black rounded transition-colors mx-auto block border-5 border-white cursor-pointer' style={{ marginTop: '15px' }} onClick={()=>window.scrollTo(0,0)}><Link to={'booking'}>Book Our Service</Link></button>
+  <div className='bg-[#130346] text-white flex items-center justify-between py-7 px-50'>
+    <div>
+      <h2 className='text-[34px] font-bold  '>We are helping companies since 1990</h2>
+      <p className='text-[19px] font-semibold '>Become a part of Singh Engineering Works</p>
+      </div>
+      <div className='pb-4'>
+        <button className='px-7 py-2 bg-[#0c4a19] text-white font-bold text-[24px] hover:bg-white hover:text-black rounded transition-colors duration-500 delay-150 mx-auto block border-5 border-white cursor-pointer' style={{ marginTop: '15px' }} onClick={()=>window.scrollTo(0,0)}><Link to={'booking'}>Book Our Service</Link></button>
+      </div>
   </div>
 )
 const OurServices = () => {
