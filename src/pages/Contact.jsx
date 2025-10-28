@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <div className='flex flex-col md:flex-row gap-10 min-h-screen py-8 px-50'>
-      <div className='flex-1'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d916913.4593047748!2d85.49745309142874!3d26.14154452187607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef75b9d6df1cb7%3A0xea6d59d43eade6e3!2sSingh%20Engineering%20Works!5e0!3m2!1sen!2snp!4v1759930215180!5m2!1sen!2snp" style={{ width: '600px', height: '500px', border: '0' }} loading="lazy"></iframe>
+    <div className='flex flex-col lg:flex-row items-center justify-center gap-15 lg:gap-10 min-h-screen py-8 sm:px-10'>
+      <div className='flex-1 w-full sm:w-auto'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d916913.4593047748!2d85.49745309142874!3d26.14154452187607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef75b9d6df1cb7%3A0xea6d59d43eade6e3!2sSingh%20Engineering%20Works!5e0!3m2!1sen!2snp!4v1759930215180!5m2!1sen!2snp" className='w-full h-[500px] sm:w-[600px] sm:h-[500px] border-0' loading="lazy"></iframe>
       </div>
-      <div className='flex-1'>
+      <div className='flex-1 px-5'>
         <h2 className="text-[24px] font-bold mb-3">Our Address</h2>
 
         <div className="flex items-center mb-4 justify-start">

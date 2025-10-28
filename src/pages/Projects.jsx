@@ -97,7 +97,7 @@ const Projects = () => {
 
     return (
         <div className="max-w-6xl mx-auto px-6 py-3">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 pt-4 sm:pt-8">
                 {projects.map((project, index) => (
                     <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden" key={index}>
                         <img src={project.image} alt={project.title} className="w-full h-80 object-cover rounded-b-lg" />

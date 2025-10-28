@@ -19,8 +19,8 @@ const BasicBreadcrumbs = () => {
 
   return (
     <div className="relative w-full h-70 bg-cover bg-center flex items-center justify-center">
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-[url('/assets/images/herobanner.jpg')] min-h-[200px]">
-        <h1 className="text-2xl md:text-3xl font-bold mb-2 uppercase">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-[url('/assets/images/herobanner.jpg')] bg-center bg-black/50 bg-blend-multiply min-h-[200px]">
+        <h1 className="text-3xl md:text-4xl font-bold mb-2 uppercase">
           {nameMap[pathnames[pathnames.length - 1]] ||
             pathnames[pathnames.length - 1] ||
             "Home"}

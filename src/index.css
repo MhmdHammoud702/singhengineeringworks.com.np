@@ -4,3 +4,19 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
+
+.loader {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #ccc;
+  border-top-color: #77c720; /* your theme color */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

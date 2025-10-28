@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutus = () => {
     return (
-        <div className="bg-white py-12  lg:px-50">
+        <div className="bg-white py-12 lg:px-50">
 
             {/* Grid Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -11,14 +11,14 @@ const Aboutus = () => {
                     {/* About Image + Text */}
                     <div className="bg-gray-50">
                         <img
-                            src="../public/assets/images/about us/singh-engg-works-about-photo.jpg"
+                            src="/assets/images/about us/singh-engg-works-about-photo.jpg"
                             alt="About Singh Engineering Works"
                             className="shadow-md w-full h-auto"
                         />
-                        <h2 className="text-[24px] font-bold text-[#77c720] mt-6 hover:text-[#426f12] transition-colors duration-300">
+                        <h2 className="px-5 text-[24px] font-bold text-[#77c720] mt-6 hover:text-[#426f12] transition-colors duration-300">
                             ABOUT SINGH ENGINEERING WORKS
                         </h2>
-                        <p className="text-[#333333] text-[18px]  leading-relaxed mt-3">
+                        <p className="text-[#333333] text-[18px] px-5 leading-relaxed mt-3">
                             Singh Engineering Works was established in 1990 AD. It has been
                             providing various mechanical works in Nepal. Ranging from ferry,
                             water treatment plants, gas bullets to many other mechanical,
@@ -33,16 +33,17 @@ const Aboutus = () => {
                         </p>
                     </div>
 
-                    <div className="bg-gray-50 h-25 flex justify-center" >
-                        <img src="../public/assets/images/about us/manager-logo.png" alt="manager logo" style={{ textAlign: 'center' }} />
+                    <div className="bg-gray-50 h-50 lg:h-25 flex flex-col gap-3 lg:gap-5 lg:flex-row items-center justify-center" >
+                        <img src="/assets/images/logo.png" alt="manager logo" className="text-center h-12 sm:h-auto" loading="lazy"/>
+                        <img src="/assets/images/about us/managerLogo.png" alt="manager logo" className="text-center h-[70%] lg:h-20 sm:h-auto" loading="lazy"/>
                     </div>
 
                     {/* Director Message */}
-                    <div className="bg-gray-50">
+                    <div className="bg-gray-50 px-5">
                         <h2 className="text-[24px] font-bold text-[#77c720] hover:text-[#426f12] transition-colors duration-300">
                             MESSAGE FROM THE DIRECTOR
                         </h2>
-                        <p className=" text-[#333333] text-[18px] leading-relaxed mt-3">
+                        <div className=" text-[#333333] text-[18px] leading-relaxed mt-3">
                             Namaste & Sat Sriakal, It’s my immense pleasure to introduce
                             myself as a company director of Singh Engineering Works. Singh
                             Engineering was established in 2047 BS (1991 AD) and registered in
@@ -62,7 +63,7 @@ const Aboutus = () => {
                             </div>
 
 
-                        </p>
+                        </div>
                     </div>
                 </div>
 

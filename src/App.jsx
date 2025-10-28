@@ -15,7 +15,7 @@ function App() {const organizationName = "Singh Engineering Works";
   }, [pageTitle]);
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Header/>
       <BasicBreadcrumbs />
       <Outlet context={{ organizationName, pathname: location.pathname }} />
